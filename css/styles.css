@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@500;600;700;800;900&display=swap');
+
+/* Additional custom styles if needed, mostly using Tailwind utility classes */
+.glow-button {
+  box-shadow: 0 0 20px rgba(74, 222, 128, 0.5);
+  transition: all 0.3s ease;
+}
+
+.glow-button:hover {
+  box-shadow: 0 0 30px rgba(74, 222, 128, 0.7);
+  transform: scale(1.02);
+}
